@@ -275,7 +275,7 @@ Test with postman by sending a `post` request to localhost:3000 witht eh followi
 
 It should console log in the billing microservice:
 
-```json
+```bash
 { orderId: '123', userId: '345', price: 34.33 }
 Billing user with stripe ID 27279 a price of $34.33...
 ```
